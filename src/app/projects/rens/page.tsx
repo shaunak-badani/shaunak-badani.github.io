@@ -27,11 +27,11 @@ export default function RENSProject() {
         <div className="space-y-6">
           <h2 className="text-3xl font-semibold">Overview</h2>
           <p className="text-muted-foreground leading-relaxed">
-            Implemented a novel molecular dynamics algorithm whose details are mentioned in Prof. Jarzynski's paper, titled "Replica exchange with non equilibrium switches.
-            The mathematical framework used to derive the propagator equations from the differential equations has been outlined in the paper "Explicit reversible integrators for extended systems dynamics", Martyna Et. Al, 1996.
+            Implemented a novel molecular dynamics algorithm whose details are mentioned in Prof. Jarzynski&apos;s paper, titled &quot;Replica exchange with non equilibrium switches&quot;.
+            The mathematical framework used to derive the propagator equations from the differential equations has been outlined in the paper &quot;Explicit reversible integrators for extended systems dynamics&quot;, Martyna Et. Al, 1996.
             After a thorough review of the aforementioned paper, the mathematical framework was applied to derive the propagator equations. Following the derivation, several hypothesis programs were written in python
             to test the correctness of the written algorithm. After a lot of trial and error for hyperparameter values, we were able to achieve the same results as outlined in the paper. The method was implemented on 3 more test systems
-            to show it's effectiveness on sampling the positional space on systems of different potential energy curves. The paper was rejected at first due to the small length of simulations reported. Since the hypothesis had been proven to work
+            to show it&apos;s effectiveness on sampling the positional space on systems of different potential energy curves. The paper was rejected at first due to the small length of simulations reported. Since the hypothesis had been proven to work
             in python, the code was ported over to C++ in favor of speed. Extremely long simulations could now be completed in short intervals of time, and improved results were added to the paper, following which
             the research work was accepted in October of 2022.
           </p>

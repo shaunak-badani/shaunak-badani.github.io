@@ -4,7 +4,7 @@ export const personalInfo = {
   name: "Shaunak Badani",
   title: "M. Eng in AI @ Duke",
   imageUrl: "/profile.jpg",
-  about: "I'm an AI grad student at Duke, with 2 years of experience in Software Engineering at Oracle, and 3 years of undergraduate research experience in Computational Natural Science at IIIT Hyderabad. I excel at learning new concepts fast, and I love to think about complex problems from different perspectives.",
+  about: "I am an AI grad student at Duke, with 2 years of experience in Software Engineering at Oracle, and 3 years of undergraduate research experience in Computational Natural Science at IIIT Hyderabad. I excel at learning new concepts fast, and I love to think about complex problems from different perspectives.",
   contact: {
     email: "shaunak.badani@duke.edu",
     github: "https://github.com/shaunak-badani",
