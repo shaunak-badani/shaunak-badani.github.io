@@ -23,12 +23,11 @@ export default function Home() {
           title={personalInfo.title}
           imageUrl={personalInfo.imageUrl}
         />
-
         <About content={personalInfo.about} />
-        <Skills skills={skills} />
-        <Projects projects={projects} />
         <Experience experience={experience} />
         <Education education={education} />
+        <Skills skills={skills} />
+        <Projects projects={projects} />
 
         <Contact contact={personalInfo.contact} />
       </main>
