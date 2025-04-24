@@ -130,6 +130,14 @@ export const education = [
 
 export const projects = [
     {
+      title: "WordWeight",
+      description: "WordWeight lets you generate stunning images from text using cutting-edge diffusion models — then pulls back the curtain to reveal which words carried the most weight.",
+      technologies: ["PyTorch", "Diffusion models", "Replicate", "PostgresQL"],
+      internalLink: "/projects/wordweight",
+      externalLink: "https://github.com/shaunak-badani/WordWeight",
+      image: "/projects/wordweight/WordWeight2.gif",
+    },
+    {
       title: "Macrograd",
       description: "Built a custom machine learning framework (like Pytorch) in C++",
       technologies: ["C++", "CMake", "GMock"],
