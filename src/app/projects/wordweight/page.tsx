@@ -28,7 +28,7 @@ export default function MacrogradProject() {
           <h2 className="text-3xl font-semibold">Overview</h2>
           <p className="text-muted-foreground leading-relaxed">
             WordWeight takes your input prompt, and first generates an image for you. Then, when you ask for an explanation of a 
-            part of the image, wordweight computes the scalar of the image mask you generated and the actual generated image. A backward
+            part of the image, wordweight computes the scalar of the sum of the products of the image mask and the actual generated image. A backward
             propagation follows, populating the gradients of the token embeddings. Using a vanilla gradient embedding method, each token&apos;s weight 
             is computed and shown on the UI.
           </p>
