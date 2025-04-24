@@ -27,9 +27,9 @@ export default function MacrogradProject() {
         <div className="space-y-6">
           <h2 className="text-3xl font-semibold">Overview</h2>
           <p className="text-muted-foreground leading-relaxed">
-          Devils Codex is an intelligent chatbot assistant designed to help prospective students explore life at Duke University. Whether it's questions about the AI Master of Engineering (AI MEng) program, 
+          Devils Codex is an intelligent chatbot assistant designed to help prospective students explore life at Duke University. Whether it&apos;s questions about the AI Master of Engineering (AI MEng) program, 
           campus events, or general information about Duke, Devils Codex provides helpful, accurate responses using 
-          OpenAI's function calling framework. The application is built with a FastAPI backend and a React + Vite 
+          OpenAI&apos;s function calling framework. The application is built with a FastAPI backend and a React + Vite 
           frontend, and is deployed on Azure using App Services for seamless, scalable hosting.
           </p>
         </div>

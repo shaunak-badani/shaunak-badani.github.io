@@ -1,7 +1,7 @@
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
-import { CirclePlay, Github, GithubIcon } from "lucide-react";
+import { CirclePlay, Github } from "lucide-react";
 import Link from "next/link";
 
 interface Project {
