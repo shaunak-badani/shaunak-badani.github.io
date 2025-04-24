@@ -24,7 +24,7 @@ export const skills = [
   },
   {
     name: "Cloud & MLOps",
-    items: ["AWS", "Nginx", "Docker"],
+    items: ["Azure App Services", "Nginx", "Docker"],
   },
   {
     name: "Web Development",
@@ -32,7 +32,7 @@ export const skills = [
   },
   {
     name: "Data Science",
-    items: ["Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Jupyter"],
+    items: ["Pandas", "NumPy", "Scikit-learn", "Matplotlib", "PyTorch"],
   },
   {
     name: "Tools",
@@ -41,6 +41,19 @@ export const skills = [
 ];
 
 export const experience = [
+  {
+    title: "DevOps Engineer Intern",
+    company: "Quizzi.AI",
+    location: "Durham, NC",
+    period: "Jan 2025 - Feb 2025",
+    description: [
+      "Implemented hotswap for the docker development setup, which enables developers to see changes to the application instantly, decreasing development time by 60%.",
+      "Reduced final build images by changing base image from python to it's alpine in the backend, and only copying build files to the image in frontend, reducing the image size by 97.53 %.",
+      "Removed environment files from docker compose files and added .env files, thereby reducing the risk of API key leakage.",
+      "Implemented session based authentication, which persisted login states after browser refreshes.",
+      "Converted front end pages from stateful pages to stateless, which allowed users to refresh at different states of the application without losing context."
+    ],
+  },
   {
     title: "Software Engineer",
     company: "Oracle Netsuite",
@@ -97,7 +110,7 @@ export const education = [
     school: "Duke University",
     location: "Durham, NC",
     period: "August 2024 - December 2025",
-    description: "Focus: Mechanistic interpretability",
+    description: "Focus: Explainable AI for diffusion models",
   },
   {
     degree: "M.S in Computational Natural Sciences",
