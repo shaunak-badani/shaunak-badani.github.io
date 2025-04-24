@@ -135,6 +135,7 @@ export const projects = [
       technologies: ["PyTorch", "Diffusion models", "Replicate", "PostgresQL"],
       internalLink: "/projects/wordweight",
       externalLink: "https://github.com/shaunak-badani/WordWeight",
+      deployedLink: "https://wordweight.azurewebsites.net/",
       image: "/projects/wordweight/WordWeight2.gif",
     },
     {

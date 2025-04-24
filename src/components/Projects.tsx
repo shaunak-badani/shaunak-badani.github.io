@@ -1,7 +1,7 @@
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLinkIcon } from "lucide-react";
+import { CirclePlay, Github, GithubIcon } from "lucide-react";
 import Link from "next/link";
 
 interface Project {
@@ -10,6 +10,7 @@ interface Project {
   technologies: string[];
   internalLink: string;
   externalLink: string;
+  deployedLink?: string;
   image: string;
 }
 
@@ -35,17 +36,28 @@ export function Projects({ projects }: ProjectsProps) {
             <CardContent className="p-6 space-y-4">
               <div className="flex items-center justify-between">
                 <Link href={project.internalLink}>
-                  <h3 className="font-semibold hover:underline">
+                  <h2 className="font-semibold hover:underline">
                     {project.title}
-                  </h3>
+                  </h2>
                 </Link>
+                <div className="flex my-2">
                 <Link
-                  href={project.externalLink}
-                  target="_blank"
-                  className="text-muted-foreground hover:text-primary"
-                >
-                  <ExternalLinkIcon className="h-4 w-4" />
-                </Link>
+                    href={project.externalLink}
+                    target="_blank"
+                    className="text-muted-foreground hover:text-primary"
+                  >
+                    <Github />
+                  </Link>
+                  {project.deployedLink &&
+                  <Link
+                    href={project.deployedLink}
+                    target="_blank"
+                    className="text-muted-foreground hover:text-primary text-blue-500 ml-3"
+                  >
+                    <CirclePlay />
+                  </Link>
+                  }
+                </div>
               </div>
               <p className="text-sm text-muted-foreground">
                 {project.description}
@@ -57,7 +69,9 @@ export function Projects({ projects }: ProjectsProps) {
                   </Badge>
                 ))}
               </div>
+              
             </CardContent>
+            
           </Card>
         ))}
       </div>
