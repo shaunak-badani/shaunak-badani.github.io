@@ -42,6 +42,17 @@ export const skills = [
 
 export const experience = [
   {
+    title: "Software Engineer Intern",
+    company: "Oracle NetSuite",
+    location: "Redwood City, CA",
+    period: "May 2025 - August 2025",
+    description: [
+      "Improved a tool for Technical Support staff that aids them in resolving customer issues without having to transfer it to the Engineering team, resulting in speedier resolution.",
+      "Added the `ConsignmentLink` table in the system, which was needed as part of a larger feature `Vendor Consignment`.",
+      "Resolved multiple customer issues, one of them impacting the workflow of 7 customers."
+    ],
+  },
+  {
     title: "DevOps Engineer Intern",
     company: "Quizzi.AI",
     location: "Durham, NC",
@@ -106,7 +117,7 @@ export const experience = [
 
 export const education = [
   {
-    degree: "M.S. in Artificial Intelligence",
+    degree: "M.Eng in Artificial Intelligence",
     school: "Duke University",
     location: "Durham, NC",
     period: "August 2024 - December 2025",
