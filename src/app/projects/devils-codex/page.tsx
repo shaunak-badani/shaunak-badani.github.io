@@ -6,16 +6,19 @@ import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function MacrogradProject() {
+
+  const projectId = 1;
+
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
       {/* Project Header */}
       <h1 className="text-4xl font-bold mb-2 tracking-tight">
-        {projects[1].title}
+        {projects[projectId].title}
       </h1>
-      <p className="text-muted-foreground mb-6">{projects[1].description}</p>
+      <p className="text-muted-foreground mb-6">{projects[projectId].description}</p>
       <div className="relative w-full h-[600px] mb-8 rounded-lg overflow-hidden">
         <Image
-          src={projects[1].image}
+          src={projects[projectId].image}
           alt="WordWeight"
           fill
           className="object-cover"
@@ -40,7 +43,7 @@ export default function MacrogradProject() {
           Technologies Used
         </h2>
         <div className="flex flex-wrap gap-2">
-          {["OpenAI function calling", "Agentic Framework", "FastAPI", "React", "Docker", "Azure App Services"].map((tech) => (
+          {projects[projectId].technologies.map((tech) => (
             <Badge key={tech} variant="secondary">
               {tech}
             </Badge>
@@ -63,7 +66,7 @@ export default function MacrogradProject() {
       <section>
         <Button asChild className="mr-6" variant="outline">
           <a
-            href={projects[1].externalLink}
+            href={projects[projectId].externalLink}
             target="_blank"
             rel="noopener noreferrer"
             className="items-center"
@@ -74,7 +77,7 @@ export default function MacrogradProject() {
         </Button>
         <Button asChild className="bg-blue-600 text-white">
           <a
-            href={projects[1].deployedLink}
+            href={projects[projectId].deployedLink}
             target="_blank"
             rel="noopener noreferrer"
             className="items-center"

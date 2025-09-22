@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { ExternalLink } from "lucide-react";
 
 interface HeroProps {
   name: string;
@@ -23,6 +25,17 @@ export function Hero({ name, title, imageUrl }: HeroProps) {
           {name}
         </h1>
         <p className="text-xl text-muted-foreground">{title}</p>
+        <Button asChild>
+          <a
+            href={"https://shaunak-badani.github.io/MDBlog"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="items-center"
+          >
+            Check out my blog!
+            <ExternalLink className="ml-2 h-4 w-4" />
+          </a>
+        </Button>
       </div>
     </section>
   );

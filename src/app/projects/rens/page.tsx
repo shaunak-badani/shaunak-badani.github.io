@@ -6,13 +6,16 @@ import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function RENSProject() {
+
+  const projectId = 3;
+
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
       {/* Project Header */}
       <h1 className="text-4xl font-bold mb-2 tracking-tight">
-        {projects[1].title}
+        {projects[projectId].title}
       </h1>
-      <p className="text-muted-foreground mb-6">{projects[1].description}</p>
+      <p className="text-muted-foreground mb-6">{projects[projectId].description}</p>
       <div className="relative w-full h-[400px] mb-8 rounded-lg overflow-hidden">
         <Image
           src="/projects/rens/RENS_schematic.png"
@@ -43,7 +46,7 @@ export default function RENSProject() {
           Technologies Used
         </h2>
         <div className="flex flex-wrap gap-2">
-          {["Python", "Numpy", "C++"].map((tech) => (
+          {projects[projectId].technologies.map((tech) => (
             <Badge key={tech} variant="secondary">
               {tech}
             </Badge>

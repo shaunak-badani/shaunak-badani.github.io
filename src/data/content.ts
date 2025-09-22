@@ -152,7 +152,7 @@ export const projects = [
     {
       title: "Devil's Codex",
       description: "A chatbot application that assists in answering questions about the Duke AI MEng Program, events around Duke, and questions for prospective students.",
-      technologies: ["OpenAI function calling", "Agentic framework"],
+      technologies: ["OpenAI function calling", "Agentic Framework", "FastAPI", "React", "Docker"],
       internalLink: "/projects/devils-codex",
       externalLink: "https://github.com/shaunak-badani/devils-codex",
       deployedLink: "https://devils-codex.azurewebsites.net/",
@@ -161,7 +161,7 @@ export const projects = [
     {
       title: "Macrograd",
       description: "Built a custom machine learning framework (like Pytorch) in C++",
-      technologies: ["C++", "CMake", "GMock"],
+      technologies: ["Python", "Numpy", "C++", "Pytorch", "CMake", "GMock"],
       internalLink: "/projects/macrograd",
       externalLink: "https://github.com/shaunak-badani/Macrograd",
       image: "/projects/macrograd/computation_graph.png",
