@@ -146,7 +146,6 @@ export const projects = [
       technologies: ["PyTorch", "Diffusion models", "Replicate", "PostgresQL"],
       internalLink: "/projects/wordweight",
       externalLink: "https://github.com/shaunak-badani/WordWeight",
-      deployedLink: "https://wordweight.azurewebsites.net/",
       image: "/projects/wordweight/WordWeight2.gif",
     },
     {
@@ -155,7 +154,6 @@ export const projects = [
       technologies: ["OpenAI function calling", "Agentic Framework", "FastAPI", "React", "Docker"],
       internalLink: "/projects/devils-codex",
       externalLink: "https://github.com/shaunak-badani/devils-codex",
-      deployedLink: "https://devils-codex.azurewebsites.net/",
       image: "/projects/devils-codex/devils-codex.gif",
     },
     {

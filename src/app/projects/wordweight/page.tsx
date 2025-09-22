@@ -73,7 +73,7 @@ export default function MacrogradProject() {
             <ExternalLink className="ml-2 h-4 w-4" />
           </a>
         </Button>
-        <Button asChild className="bg-blue-600 text-white">
+        {/* <Button asChild className="bg-blue-600 text-white">
           <a
             href="https://wordweight.azurewebsites.net/"
             target="_blank"
@@ -84,7 +84,7 @@ export default function MacrogradProject() {
             View deployed application
             <ExternalLink className="ml-2 h-4 w-4" />
           </a>
-        </Button>
+        </Button> */}
       </section>
     </div>
   );
