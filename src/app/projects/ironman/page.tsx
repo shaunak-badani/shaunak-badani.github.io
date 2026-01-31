@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export default function MacrogradProject() {
+export default function IronManProject() {
 
   const projectId = 4;
 
