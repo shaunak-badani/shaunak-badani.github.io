@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 export default function RENSProject() {
 
-  const projectId = 3;
+  const projectId = 0;
 
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">

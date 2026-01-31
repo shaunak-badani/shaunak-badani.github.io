@@ -141,20 +141,12 @@ export const education = [
 
 export const projects = [
     {
-      title: "WordWeight",
-      description: "WordWeight lets you generate stunning images from text using cutting-edge diffusion models — then pulls back the curtain to reveal which words carried the most weight.",
-      technologies: ["PyTorch", "Diffusion models", "Replicate", "PostgresQL"],
-      internalLink: "/projects/wordweight",
-      externalLink: "https://github.com/shaunak-badani/WordWeight",
-      image: "/projects/wordweight/WordWeight2.gif",
-    },
-    {
-      title: "Devil's Codex",
-      description: "A chatbot application that assists in answering questions about the Duke AI MEng Program, events around Duke, and questions for prospective students.",
-      technologies: ["OpenAI function calling", "Agentic Framework", "FastAPI", "React", "Docker"],
-      internalLink: "/projects/devils-codex",
-      externalLink: "https://github.com/shaunak-badani/devils-codex",
-      image: "/projects/devils-codex/devils-codex.gif",
+      title: "Replica Exchange with Non-equilibrium switches",
+      description: "Implemented an enhanced molecular dynamics algorithm that helps speed up simulation convergence by employing non-equilibrium methods of simulation.",
+      technologies: ["Python", "C++", "Numpy", "Matplotlib"],
+      internalLink: "/projects/rens",
+      externalLink: "https://github.com/shaunak-badani/RENS-CPP",
+      image: "/projects/rens/RENS_schematic.png",
     },
     {
       title: "Macrograd",
@@ -165,11 +157,27 @@ export const projects = [
       image: "/projects/macrograd/computation_graph.png",
     },
     {
-      title: "Replica Exchange with Non-equilibrium switches",
-      description: "Implemented an enhanced molecular dynamics algorithm that helps speed up simulation convergence by employing non-equilibrium methods of simulation.",
-      technologies: ["Python", "C++", "Numpy", "Matplotlib"],
-      internalLink: "/projects/rens",
-      externalLink: "https://github.com/shaunak-badani/RENS-CPP",
-      image: "/projects/rens/RENS_schematic.png",
+      title: "Devil's Codex",
+      description: "A chatbot application that assists in answering questions about the Duke AI MEng Program, events around Duke, and questions for prospective students.",
+      technologies: ["OpenAI function calling", "Agentic Framework", "FastAPI", "React", "Docker"],
+      internalLink: "/projects/devils-codex",
+      externalLink: "https://github.com/shaunak-badani/devils-codex",
+      image: "/projects/devils-codex/devils-codex.gif",
     },
+    {
+      title: "WordWeight",
+      description: "WordWeight lets you generate stunning images from text using cutting-edge diffusion models — then pulls back the curtain to reveal which words carried the most weight.",
+      technologies: ["PyTorch", "Diffusion models", "Replicate", "PostgresQL"],
+      internalLink: "/projects/wordweight",
+      externalLink: "https://github.com/shaunak-badani/WordWeight",
+      image: "/projects/wordweight/WordWeight2.gif",
+    },
+    {
+      title: "IronMan",
+      description: "IronMan is a fully functional mobile application that enables our presser (person who irons our clothes for us) to add orders for customers. The presser just enters qty of each type of cloth, and the application auto-calculates the total sum for each order, mark orders as paid and unpaid, and allows him to keep track of which customer owes how much.",
+      technologies: ["React Native", "Expo", "FastAPI", "OAuth2", "TypeScript"],
+      internalLink: "/projects/ironman",
+      externalLink: "https://github.com/shaunak-badani/IronMan",
+      image: "/projects/iron-man.png",
+    }
   ];

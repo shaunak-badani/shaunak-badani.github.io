@@ -23,7 +23,7 @@ export function Projects({ projects }: ProjectsProps) {
     <section className="space-y-6">
       <h2 className="text-2xl font-semibold">Featured Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {projects.map((project) => (
+        {projects.toReversed().map((project) => (
           <Card key={project.title}>
             <CardHeader className="relative h-48 p-0">
               <Image

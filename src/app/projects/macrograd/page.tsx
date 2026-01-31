@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 export default function MacrogradProject() {
 
-  const projectId = 2;
+  const projectId = 1;
 
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">

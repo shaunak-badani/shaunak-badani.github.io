@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 export default function MacrogradProject() {
 
-  const projectId = 2;
+  const projectId = 4;
 
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
@@ -30,10 +30,7 @@ export default function MacrogradProject() {
         <div className="space-y-6">
           <h2 className="text-3xl font-semibold">Overview</h2>
           <p className="text-muted-foreground leading-relaxed">
-          Devils Codex is an intelligent chatbot assistant designed to help prospective students explore life at Duke University. Whether it&apos;s questions about the AI Master of Engineering (AI MEng) program, 
-          campus events, or general information about Duke, Devils Codex provides helpful, accurate responses using 
-          OpenAI&apos;s function calling framework. The application is built with a FastAPI backend and a React + Vite 
-          frontend, and is deployed on Azure using App Services for seamless, scalable hosting.
+          IronMan is a mobile application that helps pressers easily manage customer orders and payments without manual receipts. The presser simply enters the quantity of each type of cloth, and the app automatically calculates the total order amount, tracks paid and unpaid orders, and maintains a clear record of how much each customer owes. Customers can view their outstanding balances at any time, promoting transparency and trust, while the presser saves time and effort that would otherwise be spent calculating totals and writing receipts.
           </p>
         </div>
       </section>
@@ -57,8 +54,8 @@ export default function MacrogradProject() {
           Key Challenges
         </h2>
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
-          <li><b>Managing API Rate Limits</b> – During development, rate limits on OpenAI’s API posed a constraint. Used gpt-4o mini for faster iteration and low-cost development, and switched to gpt-4o for production to ensure higher reliability and performance.</li>
-          <li><b>Multi-step Reasoning in Conversations</b> – Some chatbot tasks required sequential steps with intermediate outputs. Ensured that outputs from the first step contained all necessary context and data for the language model to complete the second step effectively.</li>
+          <li><b>Implementing Authentication</b> – Implementing authentication on backend with OAuth2 and integrating it with SecureStore on the frontend was a challenge. Ensuring that the user was redirected to login screen when the token expired was also taken care of and implemented.</li>
+          <li><b>HTTPS</b> – The first version of the application didn't work out of the box. It took some time to realize that mobile applications in production can't make HTTP calls - the API calls need to be HTTPS. Deployed the backend with certificates to ensure requests were possible from the app.</li>
         </ul>
       </section>
 
