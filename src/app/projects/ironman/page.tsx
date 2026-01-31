@@ -55,7 +55,7 @@ export default function MacrogradProject() {
         </h2>
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
           <li><b>Implementing Authentication</b> – Implementing authentication on backend with OAuth2 and integrating it with SecureStore on the frontend was a challenge. Ensuring that the user was redirected to login screen when the token expired was also taken care of and implemented.</li>
-          <li><b>HTTPS</b> – The first version of the application didn't work out of the box. It took some time to realize that mobile applications in production can't make HTTP calls - the API calls need to be HTTPS. Deployed the backend with certificates to ensure requests were possible from the app.</li>
+          <li><b>HTTPS</b> – {"The first version of the application didn't work out of the box. It took some time to realize that mobile applications in production can't make HTTP calls – the API calls need to be HTTPS. Deployed the backend with certificates to ensure requests were possible from the app."}</li>
         </ul>
       </section>
 
