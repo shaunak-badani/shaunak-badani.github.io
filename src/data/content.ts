@@ -178,6 +178,6 @@ export const projects = [
       technologies: ["React Native", "Expo", "FastAPI", "OAuth2", "TypeScript"],
       internalLink: "/projects/ironman",
       externalLink: "https://github.com/shaunak-badani/IronMan",
-      image: "/projects/iron-man.png",
+      image: "/projects/ironman/ironman.gif",
     }
   ];
