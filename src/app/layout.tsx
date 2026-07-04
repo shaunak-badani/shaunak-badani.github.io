@@ -17,6 +17,15 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: personalInfo.name,
   description: `Portfolio of ${personalInfo.name}`,
+  applicationName: personalInfo.name,
+  verification: {
+    google: "Rb4gpizrEIAT-qzSofnOxEo-qCJBqSMqDLa3kfVm5WM"
+  },
+  openGraph: {
+      title: personalInfo.name,
+      description: `Portfolio of ${personalInfo.name}`,
+      siteName: personalInfo.name
+  }
 };
 
 export default function RootLayout({
