@@ -1,5 +1,9 @@
 // NOTE: You can split this file into multiple files if you want to, especially as you add more content.
 
+export const domain = {
+  name: "https://shaunak-badani.com"
+}
+
 export const personalInfo = {
   name: "Shaunak Badani",
   title: "M. Eng in AI @ Duke",
