@@ -28,6 +28,14 @@ export const metadata: Metadata = {
   }
 };
 
+import type { Person } from 'schema-dts';
+ 
+const inventor: Person = {
+  '@type': 'Person',
+  name: 'Shaunak Badani',
+  disambiguatingDescription: 'Software Engineer, Independent researcher'
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -38,6 +46,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(inventor).replace(/</g, '\\u003c'),
+        }}
+      />
         {children}
       </body>
     </html>
