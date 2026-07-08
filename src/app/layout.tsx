@@ -33,6 +33,7 @@ import type { Person } from 'schema-dts';
 const inventor: Person = {
   '@type': 'Person',
   name: 'Shaunak Badani',
+  url: "https://shaunak-badani.com",
   disambiguatingDescription: 'Software Engineer, Independent researcher'
 };
 
