@@ -8,7 +8,7 @@ export const personalInfo = {
   name: "Shaunak Badani",
   title: "M. Eng in AI @ Duke",
   imageUrl: "/profile.jpg",
-  about: "I am an AI grad student at Duke, with 2 years of experience in Software Engineering at Oracle, and 3 years of undergraduate research experience in Computational Natural Science at IIIT Hyderabad. I excel at learning new concepts fast, and I love to think about complex problems from different perspectives.",
+  about: "I currently work as a Software Engineer at Oracle, NetSuite, in the Foundations team. I graduated with a Master of Engineering degree at Duke University, in May 2026. Prior to that, I obtained 2 years of experience in Software Engineering at Oracle, and 3 years of undergraduate research experience in Computational Natural Science at IIIT Hyderabad. I excel at learning new concepts fast, and I love to think about complex problems from different perspectives.",
   contact: {
     email: "shaunak.badani@duke.edu",
     github: "https://github.com/shaunak-badani",
@@ -45,6 +45,15 @@ export const skills = [
 ];
 
 export const experience = [
+  {
+    title: "Software Engineer",
+    company: "Oracle NetSuite",
+    location: "Redwood City, CA",
+    period: "July 2026 - Present",
+    description: [
+      "Completed compliance training so far."
+    ],
+  },
   {
     title: "Software Engineer Intern",
     company: "Oracle NetSuite",
